@@ -61,8 +61,6 @@ The application uses middleware for error logging and returns appropriate error 
 - The API endpoints can be accessed to generate and retrieve educational tweets.
 
 ## Deployment
-
-## Deployment
 We provide three different methods for deploying this microservice to openshift clusters. 
 ### Import Git Repositoy (Recommended)
 Use the import git repository feature on openshift console.
