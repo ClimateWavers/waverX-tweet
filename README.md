@@ -63,15 +63,14 @@ The application uses middleware for error logging and returns appropriate error 
 ## Deployment
 
 ## Deployment
-We provide three different methods for deploying this microservice to openshift clusters. Setup environments variables after deployments
-
+We provide three different methods for deploying this microservice to openshift clusters. 
 ### Import Git Repositoy (Recommended)
 Use the import git repository feature on openshift console.
 - Navigate to Add page in the Developer console on openshift
 - Select Dockerfile strategy
 - Deployment type should be Deployment Config
 - Secure routes
-- Supply the environment variables after deployment
+- Set the environment variables after deployment
   
 ### Automated Command line Deployment
 Using the scripts provided in `automate_development` folder, simplifies deployment. To use the scripts, docker and oc must be installed.
@@ -88,7 +87,7 @@ If the image repository was changed when building, update the `development.yaml`
    ```
 
 ### Tekton pipeline deployment script
-Deploy with tekton with the pipeline deployment script in `automated_deployment` directory
+Deploy with tekton with the pipeline deployment script in `automated_deployment` directory. Setup environments variables after deployments
    ```bash
    automate_deployment/./tekton_pipeline.sh
    ```
