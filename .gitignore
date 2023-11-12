@@ -16,3 +16,4 @@ __pycache__/
 chatbot/node_modules/
 waverxtweet/node_modules/
 modelsChatbot/node_modules/
+node_modules/
