@@ -62,7 +62,37 @@ The application uses middleware for error logging and returns appropriate error 
 
 ## Deployment
 
-Deploy the application to a server or a cloud platform. Ensure that environment variables are appropriately set for database connection and OpenAI configuration.
+## Deployment
+We provide three different methods for deploying this microservice to openshift clusters. Setup environments variables after deployments
+
+### Import Git Repositoy (Recommended)
+Use the import git repository feature on openshift console.
+- Navigate to Add page in the Developer console on openshift
+- Select Dockerfile strategy
+- Deployment type should be Deployment Config
+- Secure routes
+- Supply the environment variables after deployment
+  
+### Automated Command line Deployment
+Using the scripts provided in `automate_development` folder, simplifies deployment. To use the scripts, docker and oc must be installed.
+
+#### Build and push image
+You can replace the image repository in the scripts `build.sh` in `automate_deployment` or use the repository we provided.
+  ```bash
+   automate_deployment/./build.sh
+   ```
+#### Deploy 
+If the image repository was changed when building, update the `development.yaml` file in `k8s` folder with your image repository
+  ```bash
+   automate_deployment/./deploy.sh
+   ```
+
+### Tekton pipeline deployment script
+Deploy with tekton with the pipeline deployment script in `automated_deployment` directory
+   ```bash
+   automate_deployment/./tekton_pipeline.sh
+   ```
+
 
 ## Known Issues
 
