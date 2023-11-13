@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# oc and oc must be installed to deploy with this script
-#Get ENV variable
+# oc must be installed to deploy with this script
 
 echo "Deploying deployment"
 oc apply -f k8s/deployment.yaml
