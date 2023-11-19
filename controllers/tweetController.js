@@ -69,7 +69,7 @@ function determineCategory(generatedTweet) {
   const categoryKeywords = {
     Community: ['community', 'local', 'together'],
     Education: ['education', 'learn', 'teach', 'knowledge'],
-    Reports: ['report', 'information', 'data'],
+    Happening: ['report', 'happening now', 'information', 'data'],
   };
 
   for (const category in categoryKeywords) {
