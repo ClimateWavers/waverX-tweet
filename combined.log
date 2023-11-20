@@ -880,3 +880,65 @@ sql: INSERT INTO `Posts` (`id`,`date_created`,`content_text`,`comment_count`,`ca
 "Teaching our children about the importance of disaster p...]
 2023-11-11T17:32:32.932Z [info]: Server is running on port 3001
 2023-11-11T17:32:32.971Z [error]: Error connecting to MariaDB: getaddrinfo EAI_AGAIN climatewavers-mariadb
+2023-11-20T00:32:51.070Z [info]: Server is running on port 3001
+2023-11-20T00:32:51.146Z [info]: Connected to MariaDB
+2023-11-20T00:33:03.789Z [error]: (conn=1156, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:33:03.836Z [error]: (conn=1157, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:33:13.917Z [error]: (conn=1157, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:33:13.949Z [error]: (conn=1157, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:34:08.504Z [error]: (conn=1164, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:34:08.531Z [error]: (conn=1164, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:34:29.316Z [error]: (conn=1179, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:34:29.344Z [error]: (conn=1179, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:38:02.580Z [error]: (conn=1189, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:38:02.610Z [error]: (conn=1189, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:40:11.267Z [error]: (conn=1194, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:40:11.276Z [error]: (conn=1194, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:40:34.491Z [error]: (conn=1225, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:40:34.517Z [error]: (conn=1225, no: 1054, SQLState: 42S22) Unknown column 'comment_count' in 'field list'
+sql: SELECT `id`, `date_created`, `content_text`, `content_image`, `comment_count`, `category`, `user_id` FROM `post` AS `post` ORDER BY `post`.`date_created` DESC LIMIT 3; - parameters:[]
+2023-11-20T00:43:52.279Z [info]: Server is running on port 3001
+2023-11-20T00:43:52.428Z [info]: Connected to MariaDB
+2023-11-20T00:44:59.474Z [error]: (conn=1236, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T00:45:00.027Z [error]: (conn=1236, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T00:51:49.531Z [info]: Server is running on port 3001
+2023-11-20T00:51:49.624Z [info]: Connected to MariaDB
+2023-11-20T00:52:16.038Z [error]: (conn=1254, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T00:52:16.211Z [error]: (conn=1254, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:09:31.136Z [info]: Server is running on port 3001
+2023-11-20T01:09:31.273Z [info]: Connected to MariaDB
+2023-11-20T01:09:46.784Z [error]: (conn=1288, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:09:46.801Z [error]: (conn=1287, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:10:35.886Z [error]: (conn=1296, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:10:35.945Z [error]: (conn=1296, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:12:20.567Z [error]: (conn=1301, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:12:20.571Z [error]: (conn=1304, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:14:06.209Z [error]: (conn=1308, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:14:06.257Z [error]: (conn=1308, no: 1054, SQLState: 42S22) Unknown column 'createdAt' in 'field list'
+sql: SELECT `id`, `username`, `profile_pic`, `first_name`, `last_name`, `bio`, `cover`, `password`, `email`, `profession`, `phone_number`, `last_location`, `is_google_user`, `is_linkedin_user`, `is_github_user`, `is_redhat_user`, `is_verified`, `is_twitter_user... - parameters:[]
+2023-11-20T01:16:02.394Z [info]: Server is running on port 3001
+2023-11-20T01:16:02.474Z [info]: Connected to MariaDB
